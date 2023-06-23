@@ -94,7 +94,7 @@ FROM Employees e
 
 UPDATE Employees SET DepartmentID = 3 WHERE EmployeeID = 3;
 
--- F Update the salary of an employee with EmployeeID = 3 to a specific amount
+-- E Update the salary of an employee with EmployeeID = 3 to a specific amount
 
 UPDATE Salaries
 SET SalaryAmount = 120000.21
@@ -102,6 +102,6 @@ WHERE
     EmployeeID = 3
     AND EffectiveDate = '2022-03-01';
 
--- Delete all employees who were hired before a specific date and cascade changes to associated salary records
+-- F Delete all employees who were hired before a specific date and cascade changes to associated salary records
 
 DELETE FROM Employees WHERE HireDate < '2022-01-01' ;
