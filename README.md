@@ -24,4 +24,4 @@ d. Retrieve the latest salary for each employee, along with their full name, dep
 e. Update the department of an employee with EmployeeID = 3 to "IT" and update their salary to a specific amount.
 f. Delete all employees who were hired before a specific date and cascade the changes to associated salary records.
 
-Feel free to use chatGPT but also use comments to note what task is being performed and why it might be important that we are asking it. 
+Feel free to use chatGPT but also use comments to note what task is being performed and why it might be important that we are asking it.    
